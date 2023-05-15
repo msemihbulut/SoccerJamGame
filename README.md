@@ -12,6 +12,14 @@ Yeşil 'Code' yazılı butona tıklayıp ardından, Download ZIP seçeneği ile 
 ## Gereksinimler
 Projeyi çalıştırmak için bir web tarayıcısı yeterli olacaktır. Fakat oyunun kaynak kodlarını değiştirmek istiyorsanız bir metin düzenleme aracına (Notepad, Notepad++, Visual Studio Code) ihtiyacınız olacaktır.
 
+## Oynanış
+Kontrol ettiğimiz karakterin üç adet mekaniği mevcuttur. Bu mekanikler:
+- 'A' tuşu ile sola hareket,
+- 'D' tuşu ile sağa hareket,
+- 'Space' ile şut mekanikleridir
+
+> Amacımızı ise rakip oyuncular arasından topu geçirerek hareket eden kaleye gol atmaktır. Eğer zorlanırsanız top ile rakip oyuncuları vurarak, rakip oyuncuların hareketlerini durdurabilirsiniz.
+
 ## Kullanılan Teknolojiler
 
 - **HTML**
