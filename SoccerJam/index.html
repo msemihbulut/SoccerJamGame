@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Mustafa Semih Bulut">
+        <link rel="icon" type="image/x-icon" href="./img/ballicon.png">
+        <title>Soccer Jam</title>
+        <style>
+            body
+            {
+                background-image: url("./img/background.png");
+                background-color: #3e8e41;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 1000px 920px;
+                margin: 0px;
+                padding: 0px;
+                overflow-y: hidden;
+                overflow-x: hidden;
+            }
+            #start
+            {
+                position: absolute;
+		        top: 20%;
+                left: 45%;
+                display: inline-block;
+                padding: 15px 25px;
+                font-size: 24px;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                outline: none;
+                color: #fff;
+                background-color: #0c550e;
+                border: none;
+                border-radius: 15px;
+                box-shadow: 0 9px #999;
+            }
+            #start:hover {background-color: #3e8e41}
+            #start:active 
+            {
+                background-color: #3e8e41;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+            }
+            #rules
+            {
+                position: absolute;
+		        top: 65%;
+                left: 45%;
+                display: inline-block;
+                padding: 15px 25px;
+                font-size: 24px;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                outline: none;
+                color: #fff;
+                background-color: #0c550e;
+                border: none;
+                border-radius: 15px;
+                box-shadow: 0 9px #999;
+            }
+            #rules:hover {background-color: #3e8e41}
+            #rules:active 
+            {
+                background-color: #3e8e41;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+            }
+        </style>
+    </head>
+
+    <body onLoad="refreshPage()">
+        <button id="start" class="button" onclick="startGame()" type="button">Oyuna Başla!</button>
+        <button id="rules" class="button" onclick="gameRules()" type="button">Oyun Kuralları</button>
+        <canvas id="soccerJamGame"></canvas>
+        <script src="index.js"></script>
+    </body>
+    
+</html>
